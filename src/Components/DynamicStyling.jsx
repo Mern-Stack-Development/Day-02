@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ThemeProvider from './ThemeProvider';
 
 const Button = styled.button`
-  background-color: ${props => props.primary ? 'white' : 'grey'};
+  background-color: ${props => props.primary ? 'purple' : 'pink'};
   color: ${props => props.primary ? 'green' : 'red'};
   border-color: ${props => props.primary ? 'blue' : 'yellow'};
   margin: 50px 50px 50px 50px; 
@@ -37,16 +37,12 @@ function DynamicStyling() {
             <Alert>Error Alert</Alert>
         </div>   
         <div>
-            <h1>This is the Heading 1</h1>
+            <Heading>This is the Heading 1</Heading>
         </div> 
-        <div>
-          {/* <ThemeProvider/> */}
-        </div>
     </div>
 
   );
 }
-
 export default DynamicStyling;
 
 

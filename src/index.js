@@ -9,7 +9,7 @@ import GlobalStyles from './Styles/GlobalStyles';
 
 const theme = {
   colors: {
-    primary: 'black',
+    primary: 'blue',
     secondary: '#ff6600',
   },
   fonts: {
@@ -21,7 +21,7 @@ const theme = {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/* <GlobalStyles/> */}
+      <GlobalStyles/>
       <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>

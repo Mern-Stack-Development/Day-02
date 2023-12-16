@@ -6,11 +6,11 @@ const Card = styled.div`
   border: 1px solid #ccc;
   padding: 16px;
   margin: 50px 50px 50px 50px;
-  color: pink;
+  color: black;
 `;
 
 const RoundedCard = styled(Card)`
-  border-radius: 8px;
+  border-radius: 20px;
   color: white;
 `;
 
