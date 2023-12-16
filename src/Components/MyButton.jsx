@@ -4,9 +4,15 @@ import Stack from '@mui/material/Stack'; //remind to import this
 
 function MyButton() {
   return (
-    <Button variant="contained" color="primary">
+    <div>
+      <Button variant="contained" color="primary">
       Click Me
     </Button>
+    {/* <Button variant="contained" style={{ backgroundColor: 'black', width: '100px', color: '#fff' }}>
+        Custom Color
+      </Button> */}
+    </div>
+    
   );
 }
 

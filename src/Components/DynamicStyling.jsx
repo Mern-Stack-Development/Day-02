@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ThemeProvider from './ThemeProvider';
 
 const Button = styled.button`
   background-color: ${props => props.primary ? 'white' : 'grey'};
@@ -38,6 +39,9 @@ function DynamicStyling() {
         <div>
             <h1>This is the Heading 1</h1>
         </div> 
+        <div>
+          {/* <ThemeProvider/> */}
+        </div>
     </div>
 
   );
