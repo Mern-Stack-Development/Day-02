@@ -10,6 +10,7 @@ const Card = styled.div`
 `;
 
 const RoundedCard = styled(Card)`
+
   border-radius: 20px;
   color: white;
 `;

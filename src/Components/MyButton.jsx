@@ -1,32 +1,46 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack'; //remind to import this
+import { Stack } from '@mui/material';
+import ButtonGroup from '@mui/material/ButtonGroup';
 import HomeIcon from '@mui/icons-material/Home';
-import TrafficIcon from '@mui/icons-material/Traffic';
-import Logo from '../Styles/images/download.jpg';
-
+import CarRentalIcon from '@mui/icons-material/CarRental';
 
 function MyButton() {
   return (
     <div>
-    <div>
-      <HomeIcon/>
-      <TrafficIcon/>
-      <Button variant="contained" color="primary">
-      Click Me
-    </Button>
-    </div>
-    <div>
-    <img src={Logo} width="500px" height="500px" alt="logo" />
-    {/* <Button variant="contained" style={{ backgroundColor: 'black', width: '100px', color: '#fff' }}>
-        Custom Color
-      </Button> */}
-      {/* <Stack direction="row" spacing={5}>
-      <Button variant="contained">Button 1</Button>
-      <Button variant="contained">Button 2</Button>
-      <Button variant="contained">Button 3</Button>
-    </Stack> */}
-    </div>
+      <div>
+        <HomeIcon fontSize='large'/>
+        <Button variant="contained" color="primary">
+          Click Me
+        </Button>
+        <CarRentalIcon/>
+      </div>
+      <div>
+        <Stack direction="row" spacing={5}>
+          <Button variant="text">Text</Button>
+          <Button variant="contained">Contained</Button>
+          <Button variant="outlined">Outlined</Button>
+        </Stack>
+      </div>
+      <div>
+        <Stack direction="row" spacing={5}>
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined" disabled>
+            Disabled 
+          </Button> <HomeIcon/>
+          <Button variant="outlined" href="#outlined-buttons">
+            Link
+          </Button>
+        </Stack>
+        <ButtonGroup variant="contained" aria-label="outlined primary button group">
+          <Button>One</Button>
+          <Button>Two</Button>
+          <Button>Three</Button>
+        </ButtonGroup>
+        <Button variant="contained" style={{ backgroundColor: 'red', width: '200px', color: '#fff' }}>
+          Custom Color
+        </Button>
+      </div>
     </div>
   );
 }
