@@ -20,7 +20,7 @@ export default function KeyboardEvents() {
       <input
         type="text"
         onKeyDown={handleKeyDown} // Executed when a key is pressed down.
-        // onKeyPress={handleKeyPress} // Executed when a key is pressed.
+        onKeyPress={handleKeyPress} // Executed when a key is pressed.
         onKeyUp={handleKeyUp} // Executed when a key is released.
         placeholder="Type something..."
         style={{ marginTop: '10px', display: 'block' }}

@@ -9,12 +9,10 @@ export default function FormEvents() {
     e.preventDefault(); // Prevents the default form submission.
     alert('Form Submitted');
   };
-
   const handleInputChange = (e) => {
     console.log('Input Tag:', e.target); // Logs the target input element.
     setInputValue(e.target.value); // Sets the state with the input value.
   };
-
   const handleReset = () => {
     setInputValue('');
     setSelectValue('');
