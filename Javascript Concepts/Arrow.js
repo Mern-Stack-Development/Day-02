@@ -4,7 +4,7 @@ const hello = function() {
 };
 
 const hello_arrow = () => {
-    return "Hello World!";
+    return "Hello Arrow!";
 };
 // Example of an arrow function with parameters
 const greet = (name) => {

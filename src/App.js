@@ -4,10 +4,10 @@ import UseState from './Components/UseState/UseState';
 import StringsWithUseState from './Components/UseState/StringswithUsestate';
 import ArraysWithUseState from './Components/UseState/ArraysWithUseState';
 import ObjectsWithUseState from './Components/UseState/ObjectsWithUseState';
-// import SimpleComponent from './Components/cssComponent';
-// import MyStyles from './Components/MyStyles';
-// import DynamicStyling from './Components/DynamicStyling';
-// import ThemeProvider from './Components/ThemeProvider';
+import SimpleComponent from './Components/cssComponent';
+import MyStyles from './Components/MyStyles';
+import DynamicStyling from './Components/DynamicStyling';
+import ThemeProvider from './Components/ThemeProvider';
 import Nesting from './Components/Nesting';
 // import MyButton from './Components/MyButton';
 // import MyImage from './Components/Image';
@@ -20,9 +20,14 @@ import MyImage from './Components/Image';
 
 
 
+
 function App() {
   return (
     <div>
+      {/* <MyStyles/> */}
+      {/* <DynamicStyling/> */}
+      {/* <ThemeProvider/> */}
+      <Nesting/>
       {/* <MouseEvents/> */}
       {/* <KeyboardEvents/> */}
       {/* <FormEvents/> */}
@@ -32,7 +37,7 @@ function App() {
       {/* <UseState/> */}
       {/* <StringsWithUseState/> */}
       {/* <ArraysWithUseState/> */}
-      <ObjectsWithUseState/>
+      {/* <ObjectsWithUseState/> */}
     </div>
     
     

@@ -10,7 +10,7 @@ cursor: pointer;
 margin: 50px;
 
 &:hover {
-  background-color: #0056b3; /* Change background color on hover */
-  border-color: #0056b3; /* Change border color on hover */
+  background-color: blue; /* Change background color on hover */
+  border-color: red; /* Change border color on hover */
 }
 `;

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import ThemeProvider from './ThemeProvider';
+// import ThemeProvider from './ThemeProvider';
 
 const Button = styled.button`
-  background-color: ${props => props.primary ? 'purple' : 'pink'};
+  background-color: ${props => props.primary ? 'blue' : 'black'};
   color: ${props => props.primary ? 'green' : 'red'};
   border-color: ${props => props.primary ? 'blue' : 'yellow'};
   margin: 50px 50px 50px 50px; 
@@ -19,7 +19,7 @@ const Heading = styled.h1`
   font-size: 24px;
 
   @media (max-width: 768px) {
-    font-size: 18px;
+    font-size: 8px;
   }
 `;
 
