@@ -17,12 +17,12 @@ export default function ObjectsWithUseState() {
    const incrementAge = () => {
      setUser(prevUser => ({ ...prevUser, age: prevUser.age + 1 }));
    };
-
+ 
    // Function to handle age decrement
    const decrementAge = () => {
-     setUser(prevUser => ({ ...prevUser, age: prevUser.age - 1 }));
-   };
- 
+    setUser(prevUser => ({ ...prevUser, age: prevUser.age - 1 }));
+  };
+
    return (
      <div>
         <h1>Objects With UseState Examples</h1>
@@ -39,3 +39,14 @@ export default function ObjectsWithUseState() {
      </div>
    );
 }
+
+
+
+
+
+
+
+
+
+
+

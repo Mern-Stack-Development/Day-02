@@ -17,6 +17,8 @@ import FormEvents from './Components/FormEvents';
 import MyButton from './Components/MyButton';
 import Checkboxes from './Components/checkBox';
 import MyImage from './Components/Image';
+import KeyboardEvent from './Components/Events/KeyBoardEvent';
+import MouseEvent from './Components/Events/MouseEvent';
 
 
 
@@ -28,16 +30,18 @@ function App() {
       {/* <DynamicStyling/> */}
       {/* <ThemeProvider/> */}
       {/* <Nesting/> */}
-      <MouseEvents/>
+      {/* <MouseEvents/> */}
       {/* <KeyboardEvents/> */}
       {/* <FormEvents/> */}
+      {/* <KeyboardEvent/> */}
+      {/* <MouseEvent/> */}
       {/* <MyButton/> */}
       {/* <Checkboxes/> */}
       {/* <MyImage/> */}
       {/* <UseState/> */}
       {/* <StringsWithUseState/> */}
       {/* <ArraysWithUseState/> */}
-      {/* <ObjectsWithUseState/> */}
+      <ObjectsWithUseState/>
     </div>
     
     
