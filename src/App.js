@@ -27,8 +27,8 @@ function App() {
       {/* <MyStyles/> */}
       {/* <DynamicStyling/> */}
       {/* <ThemeProvider/> */}
-      <Nesting/>
-      {/* <MouseEvents/> */}
+      {/* <Nesting/> */}
+      <MouseEvents/>
       {/* <KeyboardEvents/> */}
       {/* <FormEvents/> */}
       {/* <MyButton/> */}

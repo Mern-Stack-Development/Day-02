@@ -29,7 +29,7 @@ export default function MouseEvents() {
 
       <div
       //  onMouseOver={() => alert('Mouse Over!')}
-        // onMouseOut={() => alert('Mouse Out!')}
+      //   onMouseOut={() => alert('Mouse Out!')}
         style={{ marginTop: '10px', height: '50px', border: '1px solid black' }}
       >
         Mouse Over & Out here
