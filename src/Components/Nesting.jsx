@@ -2,17 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Card = styled.div`
-  background-color: blue;
+  background-color: cyan;
   border: 1px solid #ccc;
   padding: 16px;
   margin: 50px 50px 50px 50px;
-  color: black;
+  color: Yellow;
 `;
 
 const RoundedCard = styled(Card)`
-
   border-radius: 20px;
-  color: white;
+  color: red;
 `;
 
 function Nesting() {

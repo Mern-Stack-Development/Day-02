@@ -16,10 +16,10 @@ const Alert = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-size: 24px;
+  font-size: 100px;
 
   @media (max-width: 768px) {
-    font-size: 8px;
+    font-size: 20px;
   }
 `;
 

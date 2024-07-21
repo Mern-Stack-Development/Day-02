@@ -9,12 +9,12 @@ import GlobalStyles from './Styles/GlobalStyles';
 
 const theme = {
   colors: {
-    primary: 'red',
+    primary: 'blue',
     secondary: 'green',
   },
   fonts: {
-    heading: 'Arial, sans-serif',
-    body: 'Roboto, sans-serif',
+    heading: 'Arial',
+    body: 'Roboto',
   },
 };
 

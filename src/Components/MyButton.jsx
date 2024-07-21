@@ -12,7 +12,7 @@ function MyButton() {
     <div>
       <HomeIcon fontSize='large'/>
       <HomeIcon fontSize='small'/>
-      <AccessibilityIcon/>
+      <HomeIcon/>
       <div>
         <Button variant="contained" color="primary">
           <GamepadIcon/>
@@ -33,7 +33,7 @@ function MyButton() {
           <Button variant="outlined">Primary</Button>
           <Button variant="outlined" disabled>
             Disabled 
-          </Button> <HomeIcon/>
+          </Button>
           <Button variant="outlined" href="#outlined-buttons">
             Link
           </Button>
@@ -45,7 +45,9 @@ function MyButton() {
         </ButtonGroup>
 
 
-        <Button variant="contained" style={{ backgroundColor: 'red', width: '200px', color: 'yellow' }}>
+        <Button variant="contained" 
+        style={{ backgroundColor: 'red', 
+        width: '200px', color: 'yellow' }}>
           Custom Color
         </Button>
       </div>

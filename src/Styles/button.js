@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const Button = styled.button` //one below the Esc button
 background-color: yellow;
 color: black;
 padding: 10px 20px;
